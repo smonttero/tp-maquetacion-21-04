@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SM STORE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../../Images/SM STORE.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/39ca188a67.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="work-sans">
+    <div class="general">      
+        <header id="headerid">
+                
+                    <div class="border-color-img">
+                    <img id="smstore" src="../../Images/SM STORE.jpeg" alt="SM STORE">
+                    </div>
+                <h1>
+                    S<span id="letters-color">M</span> STORE
+                    <br>
+                    <span id="letters-color">Catálogo de precios</span>
+                    <br>
+                    <p id="update-text">Actualizado 05-04-2026</p>
+                </h1>
+        </header>
+        <nav>
+            <div class="container-nav">
+                <div class="SM-nav">
+                    <h2>S<span class="letters-color">M</span> STORE</h2>
+                </div>
+                <div class="contacts">
+                    <h2>Contactos</h2>
+                </div>
+                <div class="contact-icons">
+                    <i class="fa-brands fa-whatsapp" style="color: rgb(25, 136, 42);"></i>
+                    <i class="fa-brands fa-instagram gradient"></i>
+                </div>
+            </div>
+        </nav>
+         <div class="bg-container">
+            <canvas id="particleCanvas"></canvas>
+            <div class="grid-overlay"></div>
+        </div>
+        <section class="indice">
+            <div id="search">
+                <p>BUSCADOR</p>
+            </div>
+            <form>
+                <input id="input-search" type="text" placeholder="Escribe para buscar servicio...">
+            </form>
+        </section>
+        <section id="card-netflix">
+            <div>
+                <img src="../../Images/NETFLIX.png" alt="NETFLIX PREMIUM">
+                <h2>NETFLIX PREMIUM</h2>
+            </div>
+            <div id="inside-card-netflix">
+                <h3>PERFIL EXTRA</h3>
+                <hr>
+                <p>🟢 VENTAJAS ✔ Solo hay 1 perfil en la cuenta, es decir es cuenta totalmente privada. ✔ Sin límite de
+                    dispositivos para iniciar sesión ✔ Sin Problemas de codigos de VIAJE NI HOGAR. ✔ Calidad estable y
+                    sin
+                    cortes</p>
+            </div>
+            <div class="compras">
+                <div>
+                    <select name="Selecciona un plan" id="select-netflix">
+                        <option selected disabled value="Selecciona un plan">Selecciona un plan</option>
+                        <option value="Perfil extra $7.500">Perfil extra $7.800</option>
+                    </select>
+                </div>
+                <div id="div-cart">
+                    <button id="button-cart">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../scripts.js"></script>
+</body>
+
+</html>
