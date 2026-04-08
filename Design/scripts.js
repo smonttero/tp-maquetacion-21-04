@@ -12,7 +12,7 @@ class Particle {
         this.y = Math.random() * canvas.height;
         this.size = Math.random() * 1.5;
         this.speedY = Math.random() * 0.7 + 0.1; // Velocidad de caída
-        this.opacity = Math.random();
+        this.opacity = Math.random();   
     }
 
     update() {
@@ -54,3 +54,24 @@ window.addEventListener('resize', () => {
 
 init();
 animate();
+
+
+
+
+
+const nav = document.querySelector('.container-nav');
+let isScrolling;
+
+window.addEventListener('scroll', () => {
+  // 1. Mientras el usuario scrollea, ocultamos la barra
+  nav.classList.add('nav-hidden');
+
+  // 2. Limpiamos el temporizador en cada movimiento
+  window.clearTimeout(isScrolling);
+
+  // 3. Establecemos un temporizador que se ejecuta cuando el scroll para
+  isScrolling = setTimeout(() => {
+    // Cuando pasan 150ms sin movimiento, volvemos a mostrarla
+    nav.classList.remove('nav-hidden');
+  }, 200); // Puedes ajustar este tiempo (ms) a tu gusto
+});
