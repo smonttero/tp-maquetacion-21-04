@@ -80,6 +80,7 @@ nav {
     align-items: center;
     gap: 30px;
     background: radial-gradient(#000, #0B132D);
+    border-bottom: 3px solid #130858;
     transition: transform 0.5s ease;
 }
 
@@ -142,7 +143,7 @@ header p {
 #headerid {
     display: flex;
     justify-content: center;
-    border: solid #dddd23;
+    border: solid #7D818A;
     width: 50%;
     align-items: center;
     height: 400px;
