@@ -13,21 +13,8 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/39ca188a67.js" crossorigin="anonymous"></script>
 </head>
-
-<body class="work-sans">
-    <div class="general">
-        <header id="headerid">
-            <div class="border-color-img">
-                <img id="smstore" src="./Images/SM STORE.jpeg" alt="SM STORE">
-            </div>
-            <h1>
-                S<span id="letters-color">M</span> STORE
-                <br>
-                <span id="letters-color">Catálogo de precios</span>
-                <br>
-                <p id="update-text">Actualizado 05-04-2026</p>
-            </h1>
-        </header>
+<body class="work-sans general">
+    <header>
         <nav>
             <div class="container-nav">
                 <div class="SM-nav">
@@ -49,31 +36,54 @@
                 </div>
             </div>
         </nav>
-        <div class="bg-container">
-            <canvas id="particleCanvas"></canvas>
-            <div class="grid-overlay"></div>
-        </div>
-        <section class="indice">
-            <div id="search">
-                <p>BUSCADOR</p>
+        <div id="headerid">
+            <div class="border-color-img">
+                <img id="smstore" src="./Images/SM STORE.jpeg" alt="SM STORE">
             </div>
-            <form>
-                <input id="input-search" type="text" placeholder="Escribe para buscar servicio...">
-            </form>
-        </section>
+            <h1>
+                S<span id="letters-color">M</span> STORE
+                <br>
+                <span id="letters-color">Catálogo de precios</span>
+                <br>
+                <p id="update-text">Actualizado 05-04-2026</p>
+            </h1>
+        </div>
+    </header>
+    <div class="general">
+
+    </div>
+    <div class="bg-container">
+        <canvas id="particleCanvas"></canvas>
+        <div class="grid-overlay"></div>
+    </div>
+    <section class="indice">
+        <div id="search">
+            <p>BUSCADOR</p>
+        </div>
+        <form>
+            <input id="input-search" type="text" placeholder="Escribe para buscar servicio...">
+        </form>
+    </section>
+    <section class="card-container">
         <!-- netflix -->
-        <section id="card-netflix">
+        <div class="card-structure">
             <div>
                 <img src="./Images/NETFLIX.png" alt="NETFLIX PREMIUM">
-                <h2>NETFLIX PREMIUM</h2>
+                <h2 id="netflix-h2-color">NETFLIX PREMIUM</h2>
             </div>
-            <div id="inside-card-netflix">
+            <div class="inside-card" style="color: white;">
                 <h3>PERFIL EXTRA</h3>
+                <p>🟢 VENTAJAS  </p>
                 <hr>
-                <p>🟢 VENTAJAS ✔ Solo hay 1 perfil en la cuenta, es decir es cuenta totalmente privada. ✔ Sin límite de
-                    dispositivos para iniciar sesión ✔ Sin Problemas de codigos de VIAJE NI HOGAR. ✔ Calidad estable y
-                    sin
-                    cortes</p>
+                <ul>
+                    <li>Solo hay 1 perfil en la cuenta, es decir es cuenta totalmente privada.</li>
+                    <li>Sin límite de
+                        dispositivos para iniciar sesión</li>
+                    <li>Sin Problemas de codigos de VIAJE NI HOGAR.</li>
+                    <li>Calidad estable y
+                        sin
+                        cortes</li>
+                </ul>
             </div>
             <div class="compras">
                 <div>
@@ -88,14 +98,15 @@
                     </button>
                 </div>
             </div>
-        </section>
+        </div>
+        <hr class="divisor-cards">
         <!-- disney -->
-        <section id="card-disney">
+        <div class="card-structure">
             <div>
                 <img src="./Images/DISNEY.png" alt="DISNEY PREMIUM">
-                <h2>DISNEY PREMIUM</h2>
+                <h2 id="disney-h2-color">DISNEY PREMIUM</h2>
             </div>
-            <div id="inside-card-disney">
+            <div class="inside-card">
                 <h3>PERFIL EXTRA</h3>
                 <hr>
                 <p>🟢 VENTAJAS ✔ Solo hay 1 perfil en la cuenta, es decir es cuenta totalmente privada. ✔ Sin límite de
@@ -117,14 +128,15 @@
                     </button>
                 </div>
             </div>
-        </section>
+        </div>
+        <hr class="divisor-cards">
         <!-- prime -->
-        <section id="card-prime">
+        <div class="card-structure">
             <div>
                 <img src="./Images/PRIME.jpeg" alt="PRIME VIDEO">
-                <h2>PRIME VIDEO</h2>
+                <h2 id="prime-h2-color">PRIME VIDEO</h2>
             </div>
-            <div id="inside-card-prime">
+            <div class="inside-card">
                 <h3>PRIME VIDEO</h3>
                 <hr>
                 <p>🟢 VENTAJAS ✔ Solo hay 1 perfil en la cuenta, es decir es cuenta totalmente privada. ✔ Sin límite de
@@ -150,14 +162,15 @@
                     </button>
                 </div>
             </div>
-        </section>
+        </div>
+        <hr class="divisor-cards">
         <!-- hbo -->
-        <section id="card-hbo">
+        <div class="card-structure">
             <div>
                 <img src="./Images/HBO.jpeg" alt="HBO MAX">
-                <h2>HBO MAX</h2>
+                <h2 id="hbo-h2-color">HBO MAX</h2>
             </div>
-            <div id="inside-card-hbo">
+            <div class="inside-card">
                 <h3>HBO MAX</h3>
                 <hr>
                 <p>🟢 VENTAJAS ✔ Solo hay 1 perfil en la cuenta, es decir es cuenta totalmente privada. ✔ Sin límite de
@@ -183,14 +196,15 @@
                     </button>
                 </div>
             </div>
-        </section>
+        </div>
+        <hr class="divisor-cards">
         <!-- paramount -->
-        <section id="card-paramount">
+        <div class="card-structure">
             <div>
                 <img src="./Images/PARAMOUNT.jpeg" alt="PARAMOUNT">
-                <h2>PARAMOUNT</h2>
+                <h2 id="paramount-h2-color">PARAMOUNT</h2>
             </div>
-            <div id="inside-card-paramount">
+            <div class="inside-card">
                 <h3>PARAMOUNT</h3>
                 <hr>
                 <p>🟢 VENTAJAS ✔ Solo hay 1 perfil en la cuenta, es decir es cuenta totalmente privada. ✔ Sin límite de
@@ -212,8 +226,9 @@
                     </button>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
     <script src="./scripts.js"></script>
 </body>
+
 </html>

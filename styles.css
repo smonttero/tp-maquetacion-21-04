@@ -8,6 +8,11 @@ body {
     padding: 0;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
 .bg-container {
     position: fixed;
     width: 100%;
@@ -61,7 +66,6 @@ canvas {
     width: 100%;
     flex-direction: column;
     display: flex;
-    align-items: center;
 }
 
 nav {
@@ -211,6 +215,12 @@ header p {
     display: block;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #search {
     background-color: #09111c;
     width: 50%;
@@ -224,7 +234,14 @@ div p {
     color: white;
     font-size: 30px;
     margin: 15px;
+}
 
+.divisor-cards {
+    border: #0b45e6 1px solid;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px -5px 20px 1px;
 }
 
 #input-search {
@@ -240,41 +257,37 @@ div p {
 }
 
 /*section*/
-#card-netflix {
-    height: 298px;
+.card-structure {
     width: 896px;
     background-color: #09111c;
     border: solid #dddd23;
     border-radius: 25px;
     padding: 25px;
-    padding-bottom: 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
 }
 
-#card-netflix div {
+.card-structure div {
     width: 100%;
     display: flex;
 }
 
-#card-netflix h2 {
+.bg-container h2 {
     color: #B1060F;
     font-family: sans-serif;
     font-size: 30px;
     margin-top: 17px;
-
 }
 
-#card-netflix div img {
+.card-structure div img {
     height: 40px;
     width: 40px;
     padding: 12px;
 }
 
 /*div que dice ventajas etc*/
-#inside-card-netflix {
+.inside-card{
     background-color: black;
     border-radius: 25px;
     margin: 25px;
@@ -288,7 +301,7 @@ div p {
     padding-left: 10px;
 }
 
-#inside-card-netflix p {
+.inside-card p {
     font-size: 16px;
     width: 100%;
     margin: 10px auto;
@@ -297,18 +310,56 @@ div p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#inside-card-netflix h3 {
+.inside-card h3 {
     color: #1F3A5A;
     padding-left: 30px;
     font-size: 22px;
     margin-bottom: 2px;
 }
 
-#inside-card-netflix hr {
+.inside-card hr {
     width: 100%;
     background-color: #0e112c;
     border: none;
     height: 1px;
+    margin: 0px;
+}
+
+/* colores de los h2 de las cards */
+
+#netflix-h2-color{
+    color: #B1060F;
+}
+#disney-h2-color{
+    color: #073D50;
+}
+#prime-h2-color{
+    color: #202E5C;
+}
+#hbo-h2-color{
+    color: #5407C4;
+}
+#paramount-h2-color{
+    color: white;
+}
+
+#button-cart {
+    background-color: #1F3A5A;
+    color: white;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    border: 3px solid #dddd23;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.compras {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
 }
 
 #select-netflix {
@@ -330,96 +381,6 @@ div p {
 }
 
 
-#button-cart {
-    background-color: #1F3A5A;
-    color: white;
-    font-size: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-radius: 10px;
-    border: 3px solid #dddd23;
-    box-sizing: border-box;
-    height: 40px;
-}
-
-.compras {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    margin-top: 10px;
-}
-
-#card-disney {
-    height: 298px;
-    width: 896px;
-    background-color: #09111c;
-    border: solid #dddd23;
-    border-radius: 25px;
-    padding: 25px;
-    padding-bottom: 0px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-#card-disney div {
-    width: 100%;
-    display: flex;
-}
-
-#card-disney h2 {
-    color: #097687;
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-top: 17px;
-
-}
-
-#card-disney div img {
-    height: 40px;
-    width: 40px;
-    padding: 12px;
-}
-
-/*div que dice ventajas etc*/
-#inside-card-disney {
-    background-color: black;
-    border-radius: 25px;
-    margin: 25px;
-    /*el auto lo centra al ancho del padre*/
-    border: solid #dddd23 3px;
-    margin-bottom: 0px;
-    display: flex;
-    height: auto;
-    flex-direction: column;
-    margin-top: 1px;
-    padding-left: 10px;
-}
-
-#inside-card-disney p {
-    font-size: 16px;
-    width: 100%;
-    margin: 10px auto;
-    padding: 15px auto;
-    color: #7D818A;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#inside-card-disney h3 {
-    color: #1F3A5A;
-    padding-left: 30px;
-    font-size: 22px;
-    margin-bottom: 2px;
-}
-
-#inside-card-disney hr {
-    width: 100%;
-    background-color: #0e112c;
-    border: none;
-    height: 1px;
-}
-
 #select-disney {
     appearance: none;
     background-color: #1F3A5A;
@@ -436,77 +397,6 @@ div p {
     flex-grow: 1;
     box-sizing: border-box;
     width: 750px;
-}
-
-#card-prime {
-    height: 298px;
-    width: 896px;
-    background-color: #09111c;
-    border: solid #dddd23;
-    border-radius: 25px;
-    padding: 25px;
-    padding-bottom: 0px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-#card-prime div {
-    width: 100%;
-    display: flex;
-}
-
-#card-prime h2 {
-    color: #202E5C;
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-top: 17px;
-
-}
-
-#card-prime div img {
-    height: 40px;
-    width: 40px;
-    padding: 12px;
-}
-
-/*div que dice ventajas etc*/
-#inside-card-prime {
-    background-color: black;
-    border-radius: 25px;
-    margin: 25px;
-    /*el auto lo centra al ancho del padre*/
-    border: solid #dddd23 3px;
-    margin-bottom: 0px;
-    display: flex;
-    height: auto;
-    flex-direction: column;
-    margin-top: 1px;
-    padding-left: 10px;
-}
-
-#inside-card-prime p {
-    font-size: 16px;
-    width: 100%;
-    margin: 10px auto;
-    padding: 15px auto;
-    color: #7D818A;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#inside-card-prime h3 {
-    color: #1F3A5A;
-    padding-left: 30px;
-    font-size: 22px;
-    margin-bottom: 2px;
-}
-
-#inside-card-prime hr {
-    width: 100%;
-    background-color: #0e112c;
-    border: none;
-    height: 1px;
 }
 
 #select-prime {
@@ -528,75 +418,6 @@ div p {
 }
 
 
-#card-paramount {
-    height: 298px;
-    width: 896px;
-    background-color: #09111c;
-    border: solid #dddd23;
-    border-radius: 25px;
-    padding: 25px;
-    padding-bottom: 0px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#card-paramount div {
-    width: 100%;
-    display: flex;
-}
-
-#card-paramount h2 {
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-top: 17px;
-
-}
-
-#card-paramount div img {
-    height: 40px;
-    width: 40px;
-    padding: 12px;
-}
-
-/*div que dice ventajas etc*/
-#inside-card-paramount {
-    background-color: black;
-    border-radius: 25px;
-    margin: 25px;
-    /*el auto lo centra al ancho del padre*/
-    border: solid #dddd23 3px;
-    margin-bottom: 0px;
-    display: flex;
-    height: auto;
-    flex-direction: column;
-    margin-top: 1px;
-    padding-left: 10px;
-}
-
-#inside-card-paramount p {
-    font-size: 16px;
-    width: 100%;
-    margin: 10px auto;
-    padding: 15px auto;
-    color: #7D818A;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#inside-card-paramount h3 {
-    color: #1F3A5A;
-    padding-left: 30px;
-    font-size: 22px;
-    margin-bottom: 2px;
-}
-
-#inside-card-paramount hr {
-    width: 100%;
-    background-color: #0e112c;
-    border: none;
-    height: 1px;
-}
 
 #select-paramount {
     appearance: none;
@@ -614,77 +435,6 @@ div p {
     flex-grow: 1;
     box-sizing: border-box;
     width: 750px;
-}
-
-#card-hbo {
-    height: 298px;
-    width: 896px;
-    background-color: #09111c;
-    border: solid #dddd23;
-    border-radius: 25px;
-    padding: 25px;
-    padding-bottom: 0px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-#card-hbo div {
-    width: 100%;
-    display: flex;
-}
-
-#card-hbo h2 {
-    color: #4731C8;
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-top: 17px;
-
-}
-
-#card-hbo div img {
-    height: 40px;
-    width: 40px;
-    padding: 12px;
-}
-
-/*div que dice ventajas etc*/
-#inside-card-hbo {
-    background-color: black;
-    border-radius: 25px;
-    margin: 25px;
-    /*el auto lo centra al ancho del padre*/
-    border: solid #dddd23 3px;
-    margin-bottom: 0px;
-    display: flex;
-    height: auto;
-    flex-direction: column;
-    margin-top: 1px;
-    padding-left: 10px;
-}
-
-#inside-card-hbo p {
-    font-size: 16px;
-    width: 100%;
-    margin: 10px auto;
-    padding: 15px auto;
-    color: #7D818A;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#inside-card-hbo h3 {
-    color: #1F3A5A;
-    padding-left: 30px;
-    font-size: 22px;
-    margin-bottom: 2px;
-}
-
-#inside-card-hbo hr {
-    width: 100%;
-    background-color: #0e112c;
-    border: none;
-    height: 1px;
 }
 
 #select-hbo {

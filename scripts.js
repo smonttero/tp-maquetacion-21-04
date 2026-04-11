@@ -56,9 +56,6 @@ init();
 animate();
 
 
-
-
-
 const nav = document.querySelector('.container-nav');
 let isScrolling;
 
