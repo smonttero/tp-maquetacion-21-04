@@ -157,6 +157,8 @@ header p {
     margin-bottom: 25px;
     position: relative;
     flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
 }
 
 #smstore {
@@ -250,7 +252,7 @@ div p {
     width: 500px;
     height: 50px;
     border-radius: 150px;
-    border: solid #dddd23;
+    border: solid #7D818A;
     color: white;
     font-size: 13px;
     padding-left: 20px;
@@ -323,6 +325,187 @@ div p {
     }
 }
 
+/* IMAGENES NETFLIX CARRUSEL */
+#dark{
+    background-image: url(./Images/dark.jpeg);
+    background-size: cover;
+}
+
+#merlina{
+    background-image: url(./Images/merlina.jpeg);
+    background-size: cover;
+}
+
+#twd{
+    background-image: url(./Images/twd.jpeg);
+    background-size: cover;
+}
+
+#anne{
+    background-image: url(./Images/anne.jpeg);
+    background-size: cover;
+}
+
+#you{
+    background-image: url(./Images/you.jpeg);
+    background-size: cover;
+}
+
+#lcdp{
+    background-image: url(./Images/lcdp.jpeg);
+    background-size: cover;
+}
+
+#st{
+    background-image: url(./Images/st.jpeg);
+    background-size: cover;
+}
+
+/* IMAGENES DISNEY CARRUSEL */
+#cars{
+    background-image: url(./Images/cars.jpeg);
+    background-size: cover;
+}
+
+#frozen{
+    background-image: url(./Images/frozen.jpeg);
+    background-size: cover;
+}
+
+#espn{
+    background-image: url(./Images/espn.jpeg);
+    background-size: cover;
+}
+
+#zootopia{
+    background-image: url(./Images/zootopia.jpeg);
+    background-size: cover;
+}
+
+#ratatouille{
+    background-image: url(./Images/ratatouille.jpeg);
+    background-size: cover;
+}
+
+#lbylb{
+    background-image: url(./Images/lbylb.jpeg);
+    background-size: cover;
+}
+
+#peterpan{
+    background-image: url(./Images/peterpan.jpeg);
+    background-size: cover;
+}
+
+/* IMAGENES PRIME VIDEO CARRUSEL */
+#megan{
+    background-image: url(./Images/megan.jpeg);
+    background-size: cover;
+}
+
+#elconjuro2{
+    background-image: url(./Images/elconjuro2.jpeg);
+    background-size: cover;
+}
+
+#theboys{
+    background-image: url(./Images/theboys.jpeg);
+    background-size: cover;
+}
+
+#forrest{
+    background-image: url(./Images/forrest.jpeg);
+    background-size: cover;
+}
+
+#fnaf{
+    background-image: url(./Images/fnaf.jpeg);
+    background-size: cover;
+}
+
+#sonic{
+    background-image: url(./Images/sonic.jpeg);
+    background-size: cover;
+}
+
+#upgraded{
+    background-image: url(./Images/upgraded.jpeg);
+    background-size: cover;
+}
+
+/* IMAGENES HBO MAX CARRUSEL */
+
+#tlou{
+    background-image: url(./Images/tlou.jpeg);
+    background-size: cover;
+}
+
+#witches{
+    background-image: url(./Images/witches.jpeg);
+    background-size: cover;
+}
+
+#friends{
+    background-image: url(./Images/friends.jpeg);
+    background-size: cover;
+}
+
+#derry{
+    background-image: url(./Images/derry.jpeg);
+    background-size: cover;
+}
+
+#hotd{
+    background-image: url(./Images/hotd.jpeg);
+    background-size: cover;
+}
+
+#titans{
+    background-image: url(./Images/titans.jpeg);
+    background-size: cover;
+}
+
+#from{
+    background-image: url(./Images/from.jpeg);
+    background-size: cover;
+}
+
+/* IMAGENES PARAMOUNT CARRUSEL */
+#pdls{
+    background-image: url(./Images/pdls.jpeg);
+    background-size: cover;
+}
+
+#halo{
+    background-image: url(./Images/halo.jpeg);
+    background-size: cover;
+}
+
+#pawpatrol{
+    background-image: url(./Images/pawpatrol.jpeg);
+    background-size: cover;
+}
+
+#stealteam{
+    background-image: url(./Images/stealteam.jpeg);
+    background-size: cover;
+}
+
+#landman{
+    background-image: url(./Images/landman.jpeg);
+    background-size: cover;
+}
+
+#primate{
+    background-image: url(./Images/primate.jpeg);
+    background-size: cover;
+}
+
+#spongebob{
+    background-image: url(./Images/spongebob.jpeg);
+    background-size: cover;
+}
+
 /*div que dice ventajas etc*/
 .inside-card {
     background-color: black;
@@ -343,8 +526,8 @@ div p {
     width: 100%;
     margin: 10px auto;
     padding: 15px auto;
-    color: #7D818A;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c4c8d2;
+    font-family: sans-serif;
 }
 
 .inside-card h3 {
@@ -408,7 +591,7 @@ div p {
     background-color: #1F3A5A;
     color: white;
     padding: 8px 35px 8px 15px;
-    border: 3px solid #dddd23;
+    border: 3px solid #7D818A;
     border-radius: 4px;
     font-size: 14px;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2309111C'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
@@ -427,7 +610,7 @@ div p {
     background-color: #1F3A5A;
     color: white;
     padding: 8px 35px 8px 15px;
-    border: 3px solid #dddd23;
+    border: 3px solid #7D818A;
     border-radius: 4px;
     font-size: 14px;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2309111C'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
@@ -445,7 +628,7 @@ div p {
     background-color: #1F3A5A;
     color: white;
     padding: 8px 35px 8px 15px;
-    border: 3px solid #dddd23;
+    border: 3px solid #7D818A;
     border-radius: 4px;
     font-size: 14px;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2309111C'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
@@ -465,7 +648,7 @@ div p {
     background-color: #1F3A5A;
     color: white;
     padding: 8px 35px 8px 15px;
-    border: 3px solid #dddd23;
+    border: 3px solid #7D818A;
     border-radius: 4px;
     font-size: 14px;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2309111C'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
@@ -483,7 +666,7 @@ div p {
     background-color: #1F3A5A;
     color: white;
     padding: 8px 35px 8px 15px;
-    border: 3px solid #dddd23;
+    border: 3px solid #7D818A;
     border-radius: 4px;
     font-size: 14px;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2309111C'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
