@@ -13,6 +13,10 @@ header {
     justify-content: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .bg-container {
     position: fixed;
     width: 100%;
@@ -75,39 +79,31 @@ nav {
     z-index: 10;
 }
 
+.sm-nav{
+    position: absolute;
+    left: 1%;
+}
+
 .container-nav {
     display: flex;
     flex-direction: row;
     width: 100%;
     color: white;
-    align-items: end;
-    align-items: center;
-    gap: 30px;
+    gap: 20px;
+    justify-content:end;
     background: radial-gradient(#000, #0B132D);
     border-bottom: 3px solid #130858;
     transition: transform 0.5s ease;
 }
 
+.container-nav div a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.423);
+
+}
+
 .nav-hidden {
     transform: translateY(-100%);
-}
-
-.SM-nav {
-    position: absolute;
-    left: 1rem;
-}
-
-.contacts {
-    border-radius: 5px;
-    position: relative;
-    left: 81%;
-}
-
-.contact-icons {
-    position: relative;
-    left: 80%;
-    font-size: 30px;
-    padding: 12px;
 }
 
 .gradient {
@@ -241,8 +237,8 @@ div p {
 .divisor-cards {
     border: #0b45e6 1px solid;
     width: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     box-shadow: 10px -5px 20px 1px;
 }
 
@@ -326,182 +322,182 @@ div p {
 }
 
 /* IMAGENES NETFLIX CARRUSEL */
-#dark{
+#dark {
     background-image: url(./Images/dark.jpeg);
     background-size: cover;
 }
 
-#merlina{
+#merlina {
     background-image: url(./Images/merlina.jpeg);
     background-size: cover;
 }
 
-#twd{
+#twd {
     background-image: url(./Images/twd.jpeg);
     background-size: cover;
 }
 
-#anne{
+#anne {
     background-image: url(./Images/anne.jpeg);
     background-size: cover;
 }
 
-#you{
+#you {
     background-image: url(./Images/you.jpeg);
     background-size: cover;
 }
 
-#lcdp{
+#lcdp {
     background-image: url(./Images/lcdp.jpeg);
     background-size: cover;
 }
 
-#st{
+#st {
     background-image: url(./Images/st.jpeg);
     background-size: cover;
 }
 
 /* IMAGENES DISNEY CARRUSEL */
-#cars{
+#cars {
     background-image: url(./Images/cars.jpeg);
     background-size: cover;
 }
 
-#frozen{
+#frozen {
     background-image: url(./Images/frozen.jpeg);
     background-size: cover;
 }
 
-#espn{
+#espn {
     background-image: url(./Images/espn.jpeg);
     background-size: cover;
 }
 
-#zootopia{
+#zootopia {
     background-image: url(./Images/zootopia.jpeg);
     background-size: cover;
 }
 
-#ratatouille{
+#ratatouille {
     background-image: url(./Images/ratatouille.jpeg);
     background-size: cover;
 }
 
-#lbylb{
+#lbylb {
     background-image: url(./Images/lbylb.jpeg);
     background-size: cover;
 }
 
-#peterpan{
+#peterpan {
     background-image: url(./Images/peterpan.jpeg);
     background-size: cover;
 }
 
 /* IMAGENES PRIME VIDEO CARRUSEL */
-#megan{
+#megan {
     background-image: url(./Images/megan.jpeg);
     background-size: cover;
 }
 
-#elconjuro2{
+#elconjuro2 {
     background-image: url(./Images/elconjuro2.jpeg);
     background-size: cover;
 }
 
-#theboys{
+#theboys {
     background-image: url(./Images/theboys.jpeg);
     background-size: cover;
 }
 
-#forrest{
+#forrest {
     background-image: url(./Images/forrest.jpeg);
     background-size: cover;
 }
 
-#fnaf{
+#fnaf {
     background-image: url(./Images/fnaf.jpeg);
     background-size: cover;
 }
 
-#sonic{
+#sonic {
     background-image: url(./Images/sonic.jpeg);
     background-size: cover;
 }
 
-#upgraded{
+#upgraded {
     background-image: url(./Images/upgraded.jpeg);
     background-size: cover;
 }
 
 /* IMAGENES HBO MAX CARRUSEL */
 
-#tlou{
+#tlou {
     background-image: url(./Images/tlou.jpeg);
     background-size: cover;
 }
 
-#witches{
+#witches {
     background-image: url(./Images/witches.jpeg);
     background-size: cover;
 }
 
-#friends{
+#friends {
     background-image: url(./Images/friends.jpeg);
     background-size: cover;
 }
 
-#derry{
+#derry {
     background-image: url(./Images/derry.jpeg);
     background-size: cover;
 }
 
-#hotd{
+#hotd {
     background-image: url(./Images/hotd.jpeg);
     background-size: cover;
 }
 
-#titans{
+#titans {
     background-image: url(./Images/titans.jpeg);
     background-size: cover;
 }
 
-#from{
+#from {
     background-image: url(./Images/from.jpeg);
     background-size: cover;
 }
 
 /* IMAGENES PARAMOUNT CARRUSEL */
-#pdls{
+#pdls {
     background-image: url(./Images/pdls.jpeg);
     background-size: cover;
 }
 
-#halo{
+#halo {
     background-image: url(./Images/halo.jpeg);
     background-size: cover;
 }
 
-#pawpatrol{
+#pawpatrol {
     background-image: url(./Images/pawpatrol.jpeg);
     background-size: cover;
 }
 
-#stealteam{
+#stealteam {
     background-image: url(./Images/stealteam.jpeg);
     background-size: cover;
 }
 
-#landman{
+#landman {
     background-image: url(./Images/landman.jpeg);
     background-size: cover;
 }
 
-#primate{
+#primate {
     background-image: url(./Images/primate.jpeg);
     background-size: cover;
 }
 
-#spongebob{
+#spongebob {
     background-image: url(./Images/spongebob.jpeg);
     background-size: cover;
 }
@@ -574,8 +570,11 @@ div p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 10px;
     border: 3px solid #7D818A;
-    box-sizing: border-box;
     height: 40px;
+}
+
+#button-cart:hover {
+    cursor: pointer;
 }
 
 .compras {
@@ -584,6 +583,10 @@ div p {
     gap: 10px;
     align-items: center;
     margin-top: 10px;
+}
+
+.compras div select {
+    cursor: pointer;
 }
 
 #select-netflix {
@@ -677,4 +680,72 @@ div p {
     flex-grow: 1;
     box-sizing: border-box;
     width: 750px;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+}
+
+aside div{
+    
+    color: white;
+    border: dashed 3px #681e1e;
+    border-radius: 5%;
+    background: transparent;
+    backdrop-filter: blur(1.4px);
+    width: 40%;
+    padding: 2em;
+}
+
+aside div h3{
+    color: #EF4444;
+    font-size: 2em;
+}
+
+aside div ul li{
+    font-size: 1.1em;
+    margin-top:3px ;
+    margin-bottom: 3px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    width: 20%;
+    border: dashed rgb(13, 31, 66);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contact-container h2{
+    color: white;
+}
+
+footer p{
+    color: #c4c3c14e;
+    font-size: large;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.contact-icons i{
+    font-size: 40px;
 }
