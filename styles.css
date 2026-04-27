@@ -592,6 +592,7 @@ div p {
 
 .compras div select {
     cursor: pointer;
+    outline: none;
 }
 
 #select-netflix {
