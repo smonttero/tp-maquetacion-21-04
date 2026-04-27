@@ -1,6 +1,7 @@
 /* lo demas del body esta enlazado con el style.css */
 body{
     justify-content: center;
+    overflow: scroll;
 }
 
 form{

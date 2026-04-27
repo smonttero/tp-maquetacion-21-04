@@ -257,6 +257,7 @@ div p {
     color: white;
     font-size: 13px;
     padding-left: 20px;
+    outline: none;
 }
 
 /*section*/
