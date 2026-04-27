@@ -1,5 +1,5 @@
 body {
-    justify-items: center;
+justify-items: center;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -96,10 +96,15 @@ nav {
     transition: transform 0.5s ease;
 }
 
+.nav-group{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
 .container-nav div a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.423);
-
 }
 
 .nav-hidden {
@@ -301,7 +306,6 @@ div p {
 }
 
 .content-carousel {
-    background: tomato;
     height: 145px;
     border-radius: 8px;
     display: flex;
